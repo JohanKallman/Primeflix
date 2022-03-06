@@ -5,6 +5,7 @@ using Microsoft.Extensions.Logging;
 using Primeflix.Data;
 using Primeflix.Models;
 using System;
+using System.Net.WebSockets;
 
 namespace Primeflix
 {
@@ -15,7 +16,7 @@ namespace Primeflix
             Console.WriteLine("Hej hej");
             Console.WriteLine("jaaajaaajaa");
             var host = CreateHostBuilder(args).Build();
-
+            Console.WriteLine("banan");
             using (var scope = host.Services.CreateScope())
             {
                 var services = scope.ServiceProvider;
