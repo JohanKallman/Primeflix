@@ -12,6 +12,7 @@ namespace Primeflix
     {
         public static void Main(string[] args)
         {
+            Console.WriteLine("Hej hej");
             var host = CreateHostBuilder(args).Build();
 
             using (var scope = host.Services.CreateScope())
