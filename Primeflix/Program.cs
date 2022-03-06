@@ -12,6 +12,7 @@ namespace Primeflix
     {
         public static void Main(string[] args)
         {
+            Console.WriteLine("Hej hej");
             Console.WriteLine("jaaajaaajaa");
             var host = CreateHostBuilder(args).Build();
 
