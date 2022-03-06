@@ -10,11 +10,11 @@ namespace Primeflix.Models
     {
         public string Trosa { get; set; }
         public int siffra { get; set; }
+        public int Id { get; set; }
 
-        public BibleClass()
+        public BibleClass(int id)
         {
-            Trosa = "bra";
-            siffra = 666;
+            Id = id;
         }
     }
 }
