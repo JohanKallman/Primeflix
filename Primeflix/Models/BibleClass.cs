@@ -9,10 +9,12 @@ namespace Primeflix.Models
     public class BibleClass
     {
         public string Trosa { get; set; }
+        public int siffra { get; set; }
 
         public BibleClass()
         {
             Trosa = "bra";
+            siffra = 666;
         }
     }
 }
