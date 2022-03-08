@@ -10,7 +10,7 @@ namespace Primeflix.Models
     {
         public User()
         {
-            
+
         }
     }
 }
